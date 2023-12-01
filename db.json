@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Cityville",
+        "zipcode": "12345"
+      }
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Townsville",
+        "zipcode": "67890"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": 101,
+      "title": "Lorem Ipsum",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "author_id": 1
+    },
+    {
+      "id": 102,
+      "title": "Dolor Sit Amet",
+      "body": "Dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "author_id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1001,
+      "post_id": 101,
+      "body": "Great post!",
+      "user_id": 2
+    },
+    {
+      "id": 1002,
+      "post_id": 102,
+      "body": "I learned a lot from this.",
+      "user_id": 1
+    }
+  ]
+}
